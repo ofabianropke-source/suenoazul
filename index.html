@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Sueño Azul</title>
+    <meta name="description" content="Projeto Sueño Azul - página inicial" />
+    <style>
+      :root{--bg:#0f1724;--card:#0b1220;--accent:#60a5fa;--muted:#94a3b8;color-scheme:dark}
+      html,body{height:100%;margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial}
+      body{background:linear-gradient(180deg,var(--bg),#071026);color:#e6eef8;display:flex;align-items:center;justify-content:center;padding:2rem}
+      .container{max-width:900px;width:100%;background:linear-gradient(180deg,rgba(255,255,255,0.02),rgba(255,255,255,0.01));border:1px solid rgba(255,255,255,0.04);padding:2rem;border-radius:12px;box-shadow:0 8px 30px rgba(2,6,23,0.6)}
+      header{display:flex;align-items:center;gap:1rem}
+      .logo{width:56px;height:56px;border-radius:10px;background:radial-gradient(circle at 30% 30%,var(--accent),#2563eb);display:flex;align-items:center;justify-content:center;font-weight:700;color:#001029}
+      h1{font-size:1.6rem;margin:0}
+      p.lead{color:var(--muted);margin-top:.4rem}
+      .grid{display:grid;grid-template-columns:1fr 320px;gap:1.25rem;margin-top:1.5rem}
+      .card{background:var(--card);padding:1rem;border-radius:10px;border:1px solid rgba(255,255,255,0.02)}
+      a.button{display:inline-block;padding:.6rem .9rem;background:var(--accent);color:#021020;text-decoration:none;border-radius:8px;font-weight:600}
+      footer{margin-top:1rem;color:var(--muted);font-size:.9rem;text-align:center}
+      @media (max-width:760px){.grid{grid-template-columns:1fr}}    
+    </style>
+  </head>
+  <body>
+    <main class="container" role="main">
+      <header>
+        <div class="logo">SA</div>
+        <div>
+          <h1>Sueño Azul</h1>
+          <p class="lead">Página inicial do repositório — um ponto de partida simples e bonito.</p>
+        </div>
+      </header>
+
+      <div class="grid">
+        <section class="card">
+          <h2>Sobre</h2>
+          <p>Este é um exemplo de página index.html gerada automaticamente. Substitua este conteúdo pelo site do seu projeto, documentação ou portfólio.</p>
+          <ul>
+            <li>Comece com uma descrição curta.</li>
+            <li>Adicione links para README, documentação ou demos.</li>
+            <li>Mantenha o design leve e acessível.</li>
+          </ul>
+          <p><a class="button" href="#get-started">Começar</a></p>
+        </section>
+
+        <aside class="card">
+          <h3 id="get-started">Rápido</h3>
+          <p style="color:var(--muted)">Sugestões:</p>
+          <ol style="margin:0;padding-left:1.1rem;color:var(--muted)">
+            <li>Editar <code>index.html</code> com seu conteúdo.</li>
+            <li>Adicionar um README.md com instruções de instalação.</li>
+            <li>Configurar GitHub Pages se quiser publicar.</li>
+          </ol>
+        </aside>
+      </div>
+
+      <footer>
+        Feito com ❤️ — Sueño Azul • Arquivo gerado por Copilot
+      </footer>
+    </main>
+  </body>
+</html>
